@@ -1,6 +1,6 @@
 {
   "name": "express-common-wallet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware for supporting authentication of Common Wallet remote requests.",
   "main": "index.js",
   "dependencies": {
@@ -12,7 +12,9 @@
     "tape": "^4.2.0",
     "test-common-wallet": "^1.0.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "test-common-wallet": "^1.1.0"
+  },
   "scripts": {
     "test": "node test.js"
   },
