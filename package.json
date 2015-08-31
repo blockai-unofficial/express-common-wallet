@@ -1,0 +1,39 @@
+{
+  "name": "express-common-wallet",
+  "version": "0.0.1",
+  "description": "Express middleware for supporting authentication of Common Wallet remote requests.",
+  "main": "index.js",
+  "dependencies": {
+    "bitcoinjs-lib": "^1.4.3",
+    "express": "^4.13.3",
+    "mem-common-blockchain": "0.0.2",
+    "request": "^2.61.0",
+    "secure-random": "^1.1.1",
+    "tape": "^4.2.0",
+    "test-common-wallet": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockai/express-common-wallet.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "common",
+    "wallet",
+    "bitcoin",
+    "bitcoinjs-lib",
+    "login",
+    "authentication"
+  ],
+  "author": "William Cotton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockai/express-common-wallet/issues"
+  },
+  "homepage": "https://github.com/blockai/express-common-wallet#readme"
+}
